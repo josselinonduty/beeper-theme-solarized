@@ -26,10 +26,12 @@
   --color-surface: var(--solarized_base3);
   --color-surface-bright: var(--solarized_base3);
   --color-base-white: var(--solarized_base3);
+  --color-background-grouped: var(--solarized_base3);
 
   --color-secondary-container: var(--solarized_base2);
   --color-tertiary-container: var(--solarized_base2);
   --color-background-sidebar-opaque: var(--solarized_base2);
+  --color-background-commandbar-opaque: var(--solarized_base2);
   --color-background-grouped-weak: var(--solarized_base2);
   --color-border-neutrals-weak: var(--solarized_base2);
 
@@ -38,6 +40,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --color-primary: var(--solarized_base00);
+
+    --color-surface: var(--solarized_base03);
+    --color-surface-bright: var(--solarized_base03);
+    --color-base-white: var(--solarized_base03);
+    --color-background-grouped: var(--solarized_base03);
+
+    --color-secondary-container: var(--solarized_base02);
+    --color-tertiary-container: var(--solarized_base02);
+    --color-background-sidebar-opaque: var(--solarized_base02);
+    --color-background-commandbar-opaque: var(--solarized_base02);
+    --color-background-grouped-weak: var(--solarized_base02);
+    --color-border-neutrals-weak: var(--solarized_base02);
+
+    --color-brand: var(--solarized_blue);
   }
 }
 
