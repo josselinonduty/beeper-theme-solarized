@@ -38,7 +38,7 @@
 /* ---------- Theme ---------- */
 
 :root {
-  --color-primary: var(--solarized_base0);
+  --color-primary: var(--solarized_yellow);
 
   --color-surface: var(--solarized_base3);
   --color-surface-bright: var(--solarized_base3);
@@ -53,11 +53,16 @@
   --color-border-neutrals-weak: var(--solarized_base2);
 
   --color-brand: var(--solarized_blue);
+  --color-gradient: linear-gradient(
+    190.1deg,
+    var(--solarized_blue) -7.24%,
+    var(--solarized_violet) 109.66%
+  );
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-primary: var(--solarized_base00);
+    --color-primary: var(--solarized_yellow);
 
     --color-surface: var(--solarized_base03);
     --color-surface-bright: var(--solarized_base03);
@@ -72,6 +77,11 @@
     --color-border-neutrals-weak: var(--solarized_base02);
 
     --color-brand: var(--solarized_blue);
+    --color-gradient: linear-gradient(
+      190.1deg,
+      var(--solarized_blue) -7.24%,
+      var(--solarized_violet) 109.66%
+    );
   }
 }
 
@@ -88,4 +98,8 @@
 
   /* reduce space after bottom-left buttons */
   padding: 0 0 6px;
+}
+
+.emoji-mart {
+  border-radius: 0;
 }
