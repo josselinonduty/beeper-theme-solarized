@@ -2,6 +2,8 @@
 
 _A Solarized color theme for Beeper._
 
+![Screenshot](./assets/beeper-theme-solarized.png)
+
 Supports both light and dark mode.
 
 ## Installation
