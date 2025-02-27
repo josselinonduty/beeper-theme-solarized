@@ -61,7 +61,7 @@
     var(--solarized_violet) 109.66%
   );
 
-  --color-background-button-secondary: var(--solarized_base0);
+  --color-background-button-secondary: var(--solarized_base2);
   --color-border-button-secondary: transparent;
   --color-text-button-secondary: var(--color-fg);
 }
