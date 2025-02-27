@@ -44,11 +44,13 @@
   --color-surface-bright: var(--solarized_base3);
   --color-base-white: var(--solarized_base3);
   --color-background-grouped: var(--solarized_base3);
+  --color-background-elevated: var(--solarized_base3);
 
   --color-secondary-container: var(--solarized_base2);
   --color-tertiary-container: var(--solarized_base2);
   --color-background-sidebar-opaque: var(--solarized_base2);
   --color-background-commandbar-opaque: var(--solarized_base2);
+  --color-border-neutrals: var(--solarized_base2);
   --color-background-grouped-weak: var(--solarized_base2);
   --color-border-neutrals-weak: var(--solarized_base2);
 
@@ -58,21 +60,27 @@
     var(--solarized_blue) -7.24%,
     var(--solarized_violet) 109.66%
   );
+
+  --color-background-button-secondary: var(--solarized_base0);
+  --color-border-button-secondary: transparent;
+  --color-text-button-secondary: var(--color-fg);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-primary: var(--solarized_yellow);
+    --color-primary: var(--solarized_cyan);
 
     --color-surface: var(--solarized_base03);
     --color-surface-bright: var(--solarized_base03);
     --color-base-white: var(--solarized_base03);
     --color-background-grouped: var(--solarized_base03);
+    --color-background-elevated: var(--solarized_base03);
 
     --color-secondary-container: var(--solarized_base02);
     --color-tertiary-container: var(--solarized_base02);
     --color-background-sidebar-opaque: var(--solarized_base02);
     --color-background-commandbar-opaque: var(--solarized_base02);
+    --color-border-neutrals: var(--solarized_base02);
     --color-background-grouped-weak: var(--solarized_base02);
     --color-border-neutrals-weak: var(--solarized_base02);
 
@@ -82,6 +90,10 @@
       var(--solarized_blue) -7.24%,
       var(--solarized_violet) 109.66%
     );
+
+    --color-background-button-secondary: var(--solarized_base00);
+    --color-border-button-secondary: transparent;
+    --color-text-button-secondary: var(--color-fg);
   }
 }
 
