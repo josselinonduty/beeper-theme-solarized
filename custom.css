@@ -16,6 +16,23 @@
   --solarized_blue: #268bd2;
   --solarized_cyan: #2aa198;
   --solarized_green: #859900;
+
+  --solarized_base03_rgb: 0, 43, 54;
+  --solarized_base02_rgb: 7, 54, 66;
+  --solarized_base01_rgb: 88, 110, 117;
+  --solarized_base00_rgb: 101, 123, 131;
+  --solarized_base0_rgb: 131, 148, 150;
+  --solarized_base1_rgb: 147, 161, 161;
+  --solarized_base2_rgb: 238, 232, 213;
+  --solarized_base3_rgb: 253, 246, 227;
+  --solarized_yellow_rgb: 181, 137, 0;
+  --solarized_orange_rgb: 203, 75, 22;
+  --solarized_red_rgb: 220, 50, 47;
+  --solarized_magenta_rgb: 211, 54, 130;
+  --solarized_violet_rgb: 108, 113, 196;
+  --solarized_blue_rgb: 38, 139, 210;
+  --solarized_cyan_rgb: 42, 161, 152;
+  --solarized_green_rgb: 133, 153, 0;
 }
 
 /* ---------- Theme ---------- */
