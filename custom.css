@@ -107,6 +107,13 @@
   }
 }
 
+.menu-list, .emoji-mart {
+    background: var(--color-background-elevated);
+}
+.emoji-mart-category-label span {
+    background: var(--color-secondary-container);
+}
+
 /* ---------- Tweaks ---------- */
 
 :root {
@@ -122,6 +129,9 @@
   padding: 0 0 6px;
 }
 
-.emoji-mart {
-  border-radius: 0;
+.emoji-mart-category-label span {
+  border-radius: 6px;
+}
+.emoji-mart-category-label {
+  padding-top: 4px;
 }
