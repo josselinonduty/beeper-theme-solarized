@@ -53,6 +53,11 @@
   --color-border-neutrals: var(--solarized_base2);
   --color-background-grouped-weak: var(--solarized_base2);
   --color-border-neutrals-weak: var(--solarized_base2);
+  --color-background-message-bubble-received: var(--solarized_base2);
+  --color-background-input: var(--solarized_base2);
+  --color-bg: var(--solarized_base2);
+  
+  --color-outline: var(--solarized_base1);
 
   --color-brand: var(--solarized_blue);
   --color-gradient: linear-gradient(
@@ -83,6 +88,11 @@
     --color-border-neutrals: var(--solarized_base02);
     --color-background-grouped-weak: var(--solarized_base02);
     --color-border-neutrals-weak: var(--solarized_base02);
+    --color-background-message-bubble-received: var(--solarized_base02);
+    --color-background-input: var(--solarized_base02);
+    --color-bg: var(--solarized_base02);
+    
+    --color-outline: var(--solarized_base01);
 
     --color-brand: var(--solarized_blue);
     --color-gradient: linear-gradient(
