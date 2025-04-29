@@ -56,7 +56,7 @@
   --color-background-message-bubble-received: var(--solarized_base2);
   --color-background-input: var(--solarized_base2);
   --color-bg: var(--solarized_base2);
-  
+
   --color-outline: var(--solarized_base1);
 
   --color-brand: var(--solarized_blue);
@@ -91,7 +91,7 @@
     --color-background-message-bubble-received: var(--solarized_base02);
     --color-background-input: var(--solarized_base02);
     --color-bg: var(--solarized_base02);
-    
+
     --color-outline: var(--solarized_base01);
 
     --color-brand: var(--solarized_blue);
@@ -107,11 +107,12 @@
   }
 }
 
-.menu-list, .emoji-mart {
-    background: var(--color-background-elevated);
+.menu-list,
+.emoji-mart {
+  background: var(--color-background-elevated);
 }
 .emoji-mart-category-label span {
-    background: var(--color-secondary-container);
+  background: var(--color-secondary-container);
 }
 
 /* ---------- Tweaks ---------- */
